@@ -129,7 +129,6 @@ Wanted to include this part too so it's clear what was actually looked at:
 4. Add basic security headers to next.config.ts
 5. (optional) add a robots.txt/sitemap.xml
 
-That's everything I found! Let me know if you want me to dig into anything deeper or if I missed something 🙂
 
 *(Note: this was just a code + dependency review, I didn't test against a live deployed version or check hosting/DNS/TLS stuff or maybe i cant find it)*
  ## ENJOY 🧚🏻‍♀️
