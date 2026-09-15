@@ -79,6 +79,7 @@ function Navbar() {
             <Link
               href={social.link}
               target="_blank"
+              rel="noopener noreferrer"
               key={"icon" + index + 1}
               className="text-xl hover:text-blue">
               {social.icon}
@@ -117,6 +118,7 @@ function Navbar() {
             <Link
               href={social.link}
               target="_blank"
+              rel="noopener noreferrer"
               key={"icon" + index + 1}
               className="text-xl hover:text-blue">
               {social.icon}
