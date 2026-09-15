@@ -4,16 +4,16 @@
 
 Hey! So I went through the `Jyotirgamaya-website` repo and did a bit of a security check on it (code + dependencies + full git history). Wanted to write up what I found below 🙂
 
-Just a heads up, this is a Next.js site and from what I can tell there's no backend/API stuff in it right now (no login, no database, no forms that submit anywhere on the site itself), so overall the attack surface is pretty small compared to most apps. But I still found a few things worth fixing, so here's the list!
+Just a heads up, this is a Next.js site and from what I can tell there's no backend/API stuff in it right now (no login, no database, no forms that submit anywhere on the site itself) i guess you all are still working on this project , so overall the attack surface is pretty small compared to most apps. But I still found a few things worth fixing, so here's the list..
 
 Quick summary before the details:
 
 - 1 actual code bug (missing `rel` attribute on some links - explained below)
-- The Next.js version is pretty outdated and has some scary sounding CVEs attached to it (like actual RCE ones!)
-- A dependency called `swiper` has a "critical" vulnerability listed for it
+- The Next.js version is pretty outdated and has some scary sounding CVEs attached to it (like actual RCE ones)
+- A dependency called `swiper` has a "critical" vulnerability listed for it so check that.
 - A bunch of other smaller dependency issues from `npm audit`
 - No security headers set up anywhere
-- No robots.txt/sitemap (not really a security thing but noting it anyway)
+- No robots.txt/sitemap (not really a security thing but noting it anyway😂)
 
 Ok here's the breakdown:
 
@@ -131,4 +131,7 @@ Wanted to include this part too so it's clear what was actually looked at:
 
 That's everything I found! Let me know if you want me to dig into anything deeper or if I missed something 🙂
 
-*(Note: this was just a code + dependency review, I didn't test against a live deployed version or check hosting/DNS/TLS stuff)*
+*(Note: this was just a code + dependency review, I didn't test against a live deployed version or check hosting/DNS/TLS stuff or maybe i cant find it)*
+ ## ENJOY 🧚🏻‍♀️
+
+
