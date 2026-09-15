@@ -107,7 +107,7 @@ Not security related, just noticed there isn't one in the public folder while I 
 
 ---
 
-## Stuff I checked that came back clean! (good news)
+## Stuff I checked that came back clean (good news👀)
 
 Wanted to include this part too so it's clear what was actually looked at:
 
@@ -134,4 +134,5 @@ That's everything I found! Let me know if you want me to dig into anything deepe
 *(Note: this was just a code + dependency review, I didn't test against a live deployed version or check hosting/DNS/TLS stuff or maybe i cant find it)*
  ## ENJOY 🧚🏻‍♀️
 
+<img width="318" height="352" alt="Cool" src="https://github.com/user-attachments/assets/68fa4f23-f576-4d07-8d67-5d9abeec3725" />
 
