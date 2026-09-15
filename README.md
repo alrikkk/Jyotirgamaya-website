@@ -111,7 +111,7 @@ Not security related, just noticed there isn't one in the public folder while I 
 
 Wanted to include this part too so it's clear what was actually looked at:
 
-- Went through **all 32 commits** in the git history looking for leaked API keys, passwords, tokens, private keys etc - found nothing 🎉
+- Went through **all 32 commits** in the git history looking for leaked API keys, passwords, tokens, private keys etc - found nothing 💀 (i am that jobless)
 - `.gitignore` correctly excludes `.env*` files and `*.pem` files
 - No `dangerouslySetInnerHTML`, `eval()`, `innerHTML`, or `document.write` anywhere in the code (these are common XSS sources so good that they're not here)
 - No API routes, middleware, or server actions exist in the codebase at all right now - so no backend to actually attack (no SQL injection, no auth bypass, none of that applies here since there's no server logic)
