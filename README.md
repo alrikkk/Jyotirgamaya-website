@@ -121,7 +121,7 @@ Wanted to include this part too so it's clear what was actually looked at:
 
 ---
 
-## tl;dr - suggested order to fix stuff
+##  gng this the suggested order to fix stuff 
 
 1. Add `rel="noopener noreferrer"` to Navbar.tsx links (like, right now, takes 2 min)
 2. Run `npm audit fix`, then update Next.js to latest 15.x
